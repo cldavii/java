@@ -17,6 +17,7 @@ public class MultiplesNumbers {
             higherNumber = number2;
             lowerNumber = number1;
         }
+        // Um número é considerado múltiplo de outro quando o resto da divisão entre eles for 0.
         if (higherNumber % lowerNumber == 0) {
             System.out.println("Sao Multiplos");
         } else {
