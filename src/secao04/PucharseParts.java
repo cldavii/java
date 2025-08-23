@@ -17,5 +17,7 @@ public class PucharseParts {
         float totalPricePiece2 = amountPiece2 * unitaryPricePiece2;
         float total = totalPricePiece1 + totalPricePiece2;
         System.out.println("VALOR A PAGAR: R$ " + String.format("%.2f", total));
+
+        scanner.close();
     }
 }
