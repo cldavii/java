@@ -1,11 +1,10 @@
 package secao06.ForExs;
 
-import java.util.Locale;
 import java.util.Scanner;
 
-public class WeightedAverage {
+public class NumbersInsideAndOutsideInterval {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in);
 
         byte n = scanner.nextByte();
         byte x;
