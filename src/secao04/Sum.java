@@ -1,11 +1,10 @@
 package secao04;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Sum {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in);
 
         byte value1 = scanner.nextByte();
         byte value2 = scanner.nextByte();
