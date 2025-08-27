@@ -1,11 +1,10 @@
 package secao05;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class MultiplesNumbers {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in);
 
         byte number1 = scanner.nextByte();
         byte number2 = scanner.nextByte();

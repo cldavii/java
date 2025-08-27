@@ -1,11 +1,10 @@
 package secao05;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class GameDuration {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in);
 
         byte gameStartTime = scanner.nextByte();
         byte gameEndTime = scanner.nextByte();
