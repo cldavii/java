@@ -9,4 +9,6 @@ Recomendo comprar o curso.
 
 > Seção 06 - Estrutura de Repetição
 
+> Seção 08 - Programação Orientada a Objetos
+
 ## Evite copiar e colar código, aprenda a lógica por trás dele!
