@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ExactQuadrant {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in);
 
         byte x, y;
         x = scanner.nextByte();

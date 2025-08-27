@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class PasswordVerification {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in);
 
         short password = 2002;
         short tryPassword = scanner.nextShort();

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class MostSelectedProduct {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in);
 
         byte fuelType = scanner.nextByte();
         byte amountSelectedAlcool = 0;
