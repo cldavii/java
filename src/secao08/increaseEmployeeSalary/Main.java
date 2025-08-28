@@ -6,15 +6,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Employee employee = new Employee();
 
         System.out.print("Name: ");
-        String name = scanner.nextLine();
+        employee.name = scanner.nextLine();
         System.out.print("Gross Salary: ");
-        double grossSalary = scanner.nextDouble();
+        employee.grossSalary = scanner.nextDouble();
         System.out.print("Tax: ");
-        double tax = scanner.nextDouble();
+        employee.tax = scanner.nextDouble();
 
-        Employee employee = new Employee(name, grossSalary, tax);
         employee.netSalary();
         System.out.println(employee.toString());
 
@@ -23,5 +23,6 @@ public class Main {
         employee.increaseSalary(percentage);
 
         System.out.println("Updated data: " + employee.toString());
+        scanner.close();
     }
 }
