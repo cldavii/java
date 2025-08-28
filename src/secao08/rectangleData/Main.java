@@ -6,12 +6,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Rectangle rectangle = new Rectangle();
 
         System.out.print("Enter the rectangle width: ");
-        double width = scanner.nextDouble();
+        rectangle.width = scanner.nextDouble();
         System.out.print("Enter the rectangle height: ");
-        double height = scanner.nextDouble();
-        Rectangle rectangle = new Rectangle(width, height);
+        rectangle.height = scanner.nextDouble();
 
         System.out.println("Area = " + rectangle.area());
         System.out.println("Area = " + rectangle.perimeter());
